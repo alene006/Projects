@@ -2,6 +2,7 @@
 
 Part of a proof of concept. This portion revolves around creating a simple search UI based on indexed data within Elasticsearch.
 This is a work in progress and has yet to be complete.
+
 _DISCLAIMER: Files referenced int_ `data.js` _and_ `index.js` _are not included for security reasons_
 
 ## Starting up the project

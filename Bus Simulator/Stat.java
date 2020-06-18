@@ -41,14 +41,14 @@ public class Stat {
 
     public static void displayStats() {
         System.out.println("-- STATISTICS OUTPUT--\n");
-        System.out.println("Average waiting time: " + (averageWait/count));
-        System.out.println("Maximum waiting time: " + maxWait+"\n");
+        System.out.println("Average waiting time: " + (averageWait/count) + " sec");
+        System.out.println("Maximum waiting time: " + maxWait+ " sec" + "\n");
 
-        System.out.println("Average travel time: " + (averageTravel/count));
-        System.out.println("Maximum travel time: " + maxTravel+"\n");
+        System.out.println("Average travel time: " + (averageTravel/count) + " sec");
+        System.out.println("Maximum travel time: " + maxTravel+ " sec" + "\n");
 
-        System.out.println("Average stop queue length: " + averageQLength/busCount);
-        System.out.println("Maximum stop queue length: " + maxQLength+"\n");
+        System.out.println("Average stop queue length: " + averageQLength/busCount + " people");
+        System.out.println("Maximum stop queue length: " + maxQLength+ " people" + "\n");
 
         System.out.println("Average bus fill: " + averageFill/busCount);
         System.out.println("Average bus fill : " + ((averageFill*100)/(busCount*BusSim.numOfOtherBus*50))+"%");

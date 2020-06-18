@@ -1,6 +1,5 @@
 // Event to create a Rider on semi-random interval, choosing random destination
 // one RiderMaker should be made per Stop for the simulation
-// modeled after CarMaker2.java from week 10 lecture examples
 
 import java.util.Arrays;
 

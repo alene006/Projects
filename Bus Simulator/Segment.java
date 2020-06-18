@@ -1,4 +1,3 @@
-// Example 27a
 // Priority Queue and Simulation
 // Segment class used in priority queue (PQ.java)
 // Uses queue class Q1.java

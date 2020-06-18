@@ -1,6 +1,4 @@
-// Example 27
 // Queue implementation using an Array
-// Revised November 2016
 
 public class Q2 implements Q {
 

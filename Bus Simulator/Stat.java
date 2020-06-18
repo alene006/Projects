@@ -1,6 +1,5 @@
 // class with all static variables and methods to keep track of
 // statistics for the simulation
-// Based on Stat2.java from week 10 lecture examples
 
 public class Stat {
 
@@ -41,7 +40,7 @@ public class Stat {
     }
 
     public static void displayStats() {
-        System.out.println("-- STATITISTICS OUTPUT--\n");
+        System.out.println("-- STATISTICS OUTPUT--\n");
         System.out.println("Average waiting time: " + (averageWait/count));
         System.out.println("Maximum waiting time: " + maxWait+"\n");
 
@@ -52,9 +51,9 @@ public class Stat {
         System.out.println("Maximum stop queue length: " + maxQLength+"\n");
 
         System.out.println("Average bus fill: " + averageFill/busCount);
-        System.out.println("Average bus fill %: " + ((averageFill*100)/(busCount*BusSim.numOfOtherBus*50))+"%");
+        System.out.println("Average bus fill : " + ((averageFill*100)/(busCount*BusSim.numOfOtherBus*50))+"%");
         System.out.println("Maximum bus fill: " + maxFill);
-        System.out.println("Maximum bus fill %: " + ((100*maxFill)/(BusSim.numOfOtherBus*50))+"%");
+        System.out.println("Maximum bus fill : " + ((100*maxFill)/(BusSim.numOfOtherBus*50))+"%");
     }
 
     private static int count;

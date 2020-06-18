@@ -1,5 +1,4 @@
-// shortened and modified version of N.java from CSCI1933 canvas & Project 3
-// used as containers for Riders per Bus
+// Used as containers for Riders per Bus
 
 public class RiderList {
     public RiderList() {

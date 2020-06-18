@@ -7,7 +7,7 @@ what the necessary next steps are for the company.
 
 **Project Name:** Bus Simulation <br/>  
 **Author:** Estifanos Alene <br/>  
-**Instruction:** Compile code on new machine and run the program <br/>  
+**Instruction:** Compile code on new machine and run the `BusSim.java` file <br/>  
 **Overview:** <br/>  
 Project contains multiple files that coorespond to different parts of the simulation. The BusSim class is the driver which runs the simulation. <br/>  
 **Data Structures & Algorithms:** <br/>  
